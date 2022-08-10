@@ -4,8 +4,8 @@ dependency:
 driver:
   name: podman
 platforms:
-  - name: zabbix_repo
-    image: ghcr.io/dandyrow/podman-ubuntu2204-ansible:latest
+  - name: instance
+    image: ghcr.io/dandyrow/podman-${MOLECULE-DISTRO:-ubuntu2204}-ansible:latest
     pre_build_image: true
 provisioner:
   name: ansible
