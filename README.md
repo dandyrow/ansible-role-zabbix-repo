@@ -1,4 +1,4 @@
-Ansible Role - Zabbix Repo
+Ansible Role - Zabbix Repo [![CI](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml/badge.svg)](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml)
 =========
 
 An Ansible role which sets up the Zabbix repository on Linux hosts.
