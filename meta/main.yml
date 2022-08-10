@@ -1,6 +1,7 @@
 galaxy_info:
-  author: Daniel Lowry
+  role_name: zabbix_repo
   namespace: dandyrow
+  author: Daniel Lowry
   description: Sets up the Zabbix repository on Linux hosts
 
   license: GPL-3.0-only
@@ -10,16 +11,12 @@ galaxy_info:
   platforms:
   - name: Ubuntu
     versions:
-    - all
-  - name: Debian
-    versions:
-    - all
+    - jammy
 
   galaxy_tags:
     - zabbix
     - linux
     - repository
-    - debian
     - ubuntu
 
 dependencies: []
