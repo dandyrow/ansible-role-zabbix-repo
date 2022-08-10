@@ -4,12 +4,10 @@ dependency:
 driver:
   name: podman
 platforms:
-  - name: instance
+  - name: zabbix_repo
     image: ghcr.io/dandyrow/podman-ubuntu2204-ansible:latest
     pre_build_image: true
 provisioner:
-  name: ansible
-verifier:
   name: ansible
 lint: |
   set -e

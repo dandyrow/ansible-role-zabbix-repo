@@ -1,12 +1,5 @@
 ---
 - name: Converge
   hosts: all
-  tasks:
-    # replace these tasks with whatever you find suitable to test
-    - name: Copy something to test use of synchronize module
-      ansible.builtin.copy:
-        src: /etc/hosts
-        dest: /tmp/hosts-from-controller
-    - name: "Include dandyrow.zabbix_repo"
-      ansible.builtin.include_role:
-        name: "dandyrow.zabbix_repo"
+  roles:
+    - role: zabbix_repo
