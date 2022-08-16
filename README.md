@@ -8,6 +8,13 @@ Role Variables
 
 `zbx_version` - Sets the Zabbix version of to install the corresponding repository.
 
+Supported Platforms
+-------------------
+
+- Ubuntu:
+  - 22.04 Jammy
+  - 20.04 Focal
+
 Example Playbook
 ----------------
 
