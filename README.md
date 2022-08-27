@@ -1,4 +1,4 @@
-**[Depricated]** Ansible Role - Zabbix Repo [![CI](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml/badge.svg)](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml)
+**[Deprecated]** Ansible Role - Zabbix Repo [![CI](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml/badge.svg)](https://github.com/dandyrow/ansible-role-zabbix-repo/actions/workflows/CI.yml)
 =========
 **This role has now been depricated and replaced by the zabbix agent role and in the future a zabbix proxy and server role.**
 
